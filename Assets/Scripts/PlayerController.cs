@@ -5,13 +5,20 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public Animator playerAnimator;
+    
     private static PlayerMovementState playerMovementState;
+    private static readonly int SpeedX = Animator.StringToHash("SpeedX");
 
     private const float RUNNING_SPEED = 5f;
     private const float JUMP_FORCE = 10f;
     
     private static float playerHorizontalVector;
     private static float playerVerticalVector;
+    
+    private float previousMoveX;
+    private static float playerFacing;
+
 
     private Rigidbody2D _rbPlayer;
     private BoxCollider2D _colliderPlayer;
@@ -28,6 +35,7 @@ public class PlayerController : MonoBehaviour
     {
         playerHorizontalVector = Input.GetAxisRaw("Horizontal");
         playerVerticalVector = Input.GetAxisRaw("Vertical");
+        playerAnimator.SetFloat(SpeedX, Mathf.Abs(playerHorizontalVector));
     }
 
     private void FixedUpdate()
@@ -35,6 +43,7 @@ public class PlayerController : MonoBehaviour
         if (playerHorizontalVector == 0 && playerVerticalVector == 0) return;
         
         Run();
+        FaceTowards();
         if (IsGrounded())
             Jump();
     }
@@ -57,15 +66,22 @@ public class PlayerController : MonoBehaviour
         return !ReferenceEquals(raycastHit2D.collider, null); // changed from raycastHit2D.collider != null;
     }
     
-    // private bool IsGrounded() 
-    // {
-    //     var boxSize = _colliderPlayer.size * transform.localScale.x;
-    //     var boxCenter = (Vector2)transform.position + _colliderPlayer.offset;
-    //
-    //     RaycastHit2D hit = Physics2D.BoxCast(boxCenter, boxSize, 0f, Vector2.down, 
-    //         0.1f, platformsLayerMask);
-    //
-    //     return hit.collider != null;
-    // }
+    private void FaceTowards()
+    {
+        if ((int)previousMoveX == (int)playerHorizontalVector) return;
+        DeterminePlayerDirection();
+            
+        if (playerHorizontalVector != 0)
+            transform.localScale = new Vector3(1 * playerHorizontalVector, 1, 1);
+
+        previousMoveX = playerHorizontalVector;
+    }
+
+    public static float DeterminePlayerDirection()
+    {
+        if (playerHorizontalVector != 0) 
+            playerFacing = playerHorizontalVector;
+        return playerFacing;
+    }
 }
 
