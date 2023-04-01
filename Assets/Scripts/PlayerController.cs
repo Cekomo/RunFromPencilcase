@@ -57,9 +57,9 @@ public class PlayerController : MonoBehaviour
 
     private void Jump()
     {
-        SetParametersToAnimateJump();
+        // SetParametersToAnimateJump();
         
-        _rbPlayer.AddForce(Vector2.up * JUMP_FORCE * playerVerticalVector, ForceMode2D.Impulse);
+        _rbPlayer.AddForce(Vector2.up * (JUMP_FORCE * playerVerticalVector), ForceMode2D.Impulse);
         playerAnimator.SetTrigger(TakeOff);
     }
 
@@ -71,12 +71,12 @@ public class PlayerController : MonoBehaviour
         return !ReferenceEquals(raycastHit2D.collider, null); // changed from raycastHit2D.collider != null;
     }
     
-    private void SetParametersToAnimateJump()
-    {
-        playerAnimator.SetBool(IsJumping, !CheckIfGrounded());
-        playerAnimator.SetBool(IsGrounded, CheckIfGrounded());
-        playerAnimator.SetFloat(SpeedY, _rbPlayer.velocity.y);
-    }
+    // private void SetParametersToAnimateJump()
+    // {
+    //     playerAnimator.SetBool(IsJumping, !CheckIfGrounded());
+    //     playerAnimator.SetBool(IsGrounded, CheckIfGrounded());
+    //     playerAnimator.SetFloat(SpeedY, _rbPlayer.velocity.y);
+    // }
     
     private void FaceTowards()
     {
