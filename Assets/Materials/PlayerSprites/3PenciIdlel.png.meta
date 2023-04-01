@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,17 +109,17 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 91
+        width: 47
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b213e3ef15ca5c46911cef53f3f888b
-      internalID: -1116994110
+      spriteID: 924f3912986d0fb42b778ca0ec29a986
+      internalID: -1015720568
       vertices: []
       indices: 
       edges: []
@@ -128,19 +128,19 @@ TextureImporter:
       name: 3PenciIdlel_1
       rect:
         serializedVersion: 2
-        x: 91
+        x: 48
         y: 0
-        width: 91
+        width: 47
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9eb806d62c425914681d035f9250f802
-      internalID: -845700512
+      spriteID: 0328692e4380cba4397cd842c25f5cf5
+      internalID: 1656313111
       vertices: []
       indices: 
       edges: []
@@ -149,19 +149,19 @@ TextureImporter:
       name: 3PenciIdlel_2
       rect:
         serializedVersion: 2
-        x: 182
+        x: 96
         y: 0
-        width: 91
+        width: 47
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8b9a5fa0064e934ea643a959312019d
-      internalID: 629449245
+      spriteID: 21a94a92f3cc9de4eba9ac46f359d819
+      internalID: 687369884
       vertices: []
       indices: 
       edges: []
@@ -170,19 +170,19 @@ TextureImporter:
       name: 3PenciIdlel_3
       rect:
         serializedVersion: 2
-        x: 273
+        x: 144
         y: 0
-        width: 91
+        width: 47
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 740dce8cca458db4f8ae1c1cf4ac6c17
-      internalID: -1194025413
+      spriteID: 97c7a3a039625524a84e82aaf25d18df
+      internalID: 97628555
       vertices: []
       indices: 
       edges: []
@@ -198,10 +198,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      3PenciIdlel_1: -845700512
-      3PenciIdlel_2: 629449245
-      3PenciIdlel_0: -1116994110
-      3PenciIdlel_3: -1194025413
+      3PenciIdlel_1: 1656313111
+      3PenciIdlel_2: 687369884
+      3PenciIdlel_0: -1015720568
+      3PenciIdlel_3: 97628555
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

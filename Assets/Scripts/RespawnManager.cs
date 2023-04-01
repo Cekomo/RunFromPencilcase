@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RespawnManager : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class RespawnManager : MonoBehaviour
     
     private void Update()
     {
-        if (!PencilcaseController.IsGameOver) return;
+        if (!PencilcaseController.IsGameOver || !Respawner.IsPositionSaved) return;
 
         SetCheckPointPositions();
 
@@ -18,7 +19,12 @@ public class RespawnManager : MonoBehaviour
 
     private void SetCheckPointPositions()
     {
-        player.transform.position = checkPointSo.playerPosition;
-        pencilCase.transform.position = checkPointSo.pencilCasePosition;
+        if (Respawner.IsPositionSaved)
+        {
+            player.transform.position = checkPointSo.playerPosition;
+            pencilCase.transform.position = checkPointSo.pencilCasePosition;
+        }
+        else
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
     }
 }

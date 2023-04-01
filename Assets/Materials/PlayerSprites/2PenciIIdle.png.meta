@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,7 +109,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 91
+        width: 48
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -118,8 +118,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2d22a8834031b4449c15356d5d5695c
-      internalID: -1486451691
+      spriteID: 88a37ab1a90d67a4ca4835ccb0560da7
+      internalID: 1722575653
       vertices: []
       indices: 
       edges: []
@@ -128,9 +128,9 @@ TextureImporter:
       name: 2PenciIIdle_1
       rect:
         serializedVersion: 2
-        x: 91
+        x: 48
         y: 0
-        width: 91
+        width: 48
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -139,8 +139,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3ec4065649b5a54788ba7daabf6a35e
-      internalID: 836630976
+      spriteID: dacb0bba10c0d6a42af6e6ccbd05a607
+      internalID: 1307552601
       vertices: []
       indices: 
       edges: []
@@ -149,9 +149,9 @@ TextureImporter:
       name: 2PenciIIdle_2
       rect:
         serializedVersion: 2
-        x: 182
+        x: 96
         y: 0
-        width: 91
+        width: 48
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -160,8 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81cc78b559e78b54faeed51f7271f332
-      internalID: -1034725751
+      spriteID: eec553337a65d294cb815e53ee298259
+      internalID: -261602653
       vertices: []
       indices: 
       edges: []
@@ -170,9 +170,9 @@ TextureImporter:
       name: 2PenciIIdle_3
       rect:
         serializedVersion: 2
-        x: 273
+        x: 144
         y: 0
-        width: 91
+        width: 48
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -181,8 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 184fb5a87ea4d0442ad6b260fa9face3
-      internalID: -660361745
+      spriteID: 032626c1ef621b04ea0b738e3d4ff0d7
+      internalID: -1083642517
       vertices: []
       indices: 
       edges: []
@@ -198,10 +198,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      2PenciIIdle_0: -1486451691
-      2PenciIIdle_1: 836630976
-      2PenciIIdle_3: -660361745
-      2PenciIIdle_2: -1034725751
+      2PenciIIdle_0: 1722575653
+      2PenciIIdle_1: 1307552601
+      2PenciIIdle_3: -1083642517
+      2PenciIIdle_2: -261602653
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

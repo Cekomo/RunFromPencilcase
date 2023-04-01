@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,7 +109,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 91
+        width: 48
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -118,8 +118,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce84d1b5283a2d448b571420bebd1177
-      internalID: 1966008237
+      spriteID: 551aad825e304574e95f5120c0bf3e32
+      internalID: -412141314
       vertices: []
       indices: 
       edges: []
@@ -128,9 +128,9 @@ TextureImporter:
       name: 1PencilIdle_1
       rect:
         serializedVersion: 2
-        x: 91
+        x: 48
         y: 0
-        width: 91
+        width: 48
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -139,8 +139,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d62f2f394604ac6498e355b8a6c9e141
-      internalID: -26562326
+      spriteID: 88cfa84a8618c394ab5e4044059a0769
+      internalID: 1460587682
       vertices: []
       indices: 
       edges: []
@@ -149,9 +149,9 @@ TextureImporter:
       name: 1PencilIdle_2
       rect:
         serializedVersion: 2
-        x: 182
+        x: 96
         y: 0
-        width: 91
+        width: 48
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -160,8 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dda07034dc2d1b1478cd85803c9853cd
-      internalID: 3041092
+      spriteID: d3b4456e2d5db98469748827c528b7e7
+      internalID: 281714137
       vertices: []
       indices: 
       edges: []
@@ -170,9 +170,9 @@ TextureImporter:
       name: 1PencilIdle_3
       rect:
         serializedVersion: 2
-        x: 273
+        x: 144
         y: 0
-        width: 91
+        width: 48
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -181,8 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 830564a6c4e926b40a4ddc6b8234f7c2
-      internalID: 1262817276
+      spriteID: c4ebeec5d87f8964680c637f86f846df
+      internalID: 262177207
       vertices: []
       indices: 
       edges: []
@@ -198,10 +198,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      1PencilIdle_2: 3041092
-      1PencilIdle_0: 1966008237
-      1PencilIdle_1: -26562326
-      1PencilIdle_3: 1262817276
+      1PencilIdle_2: 281714137
+      1PencilIdle_0: -412141314
+      1PencilIdle_1: 1460587682
+      1PencilIdle_3: 262177207
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,7 +109,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 91
+        width: 55
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -118,8 +118,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a9ae6c06f433764c9a182185fde3a9d
-      internalID: 1249261976
+      spriteID: 1230cf30030a36748a659ea9582a8011
+      internalID: -1909635304
       vertices: []
       indices: 
       edges: []
@@ -128,9 +128,9 @@ TextureImporter:
       name: 1PencilRun_1
       rect:
         serializedVersion: 2
-        x: 91
+        x: 55
         y: 0
-        width: 91
+        width: 55
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -139,8 +139,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 606dd7be344f32845a4c246ddf828958
-      internalID: -2022345503
+      spriteID: 5b0748dbfce425241b3c83ded7eb5689
+      internalID: 486394134
       vertices: []
       indices: 
       edges: []
@@ -149,9 +149,9 @@ TextureImporter:
       name: 1PencilRun_2
       rect:
         serializedVersion: 2
-        x: 182
+        x: 110
         y: 0
-        width: 91
+        width: 55
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -160,8 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ccaa57ad4d495c42b61d47b2a4d65ab
-      internalID: 448980916
+      spriteID: d9a82e5c0b9216544bf383b7d74225f7
+      internalID: 137333232
       vertices: []
       indices: 
       edges: []
@@ -170,9 +170,9 @@ TextureImporter:
       name: 1PencilRun_3
       rect:
         serializedVersion: 2
-        x: 273
+        x: 165
         y: 0
-        width: 91
+        width: 55
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -181,8 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5aa312b6936850944bfb4797deb91672
-      internalID: -629655503
+      spriteID: c022b892190ccef4c91511ea69d049f4
+      internalID: -1067055065
       vertices: []
       indices: 
       edges: []
@@ -191,9 +191,9 @@ TextureImporter:
       name: 1PencilRun_4
       rect:
         serializedVersion: 2
-        x: 364
+        x: 220
         y: 0
-        width: 91
+        width: 55
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -202,8 +202,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b05ebe9f72992947b868f6d5eaabeb6
-      internalID: -1913767701
+      spriteID: 3642f39c16990c94baa9271441ad94c1
+      internalID: 2059332565
       vertices: []
       indices: 
       edges: []
@@ -212,9 +212,9 @@ TextureImporter:
       name: 1PencilRun_5
       rect:
         serializedVersion: 2
-        x: 455
+        x: 275
         y: 0
-        width: 91
+        width: 55
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -223,8 +223,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92dcd5b391c040e4db8c88337e3430e8
-      internalID: -730080950
+      spriteID: 50c93b39ec45cf8448c9dbcb94c626e2
+      internalID: -1358100782
       vertices: []
       indices: 
       edges: []
@@ -233,9 +233,9 @@ TextureImporter:
       name: 1PencilRun_6
       rect:
         serializedVersion: 2
-        x: 546
+        x: 330
         y: 0
-        width: 91
+        width: 55
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -244,8 +244,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb48d35e1a3b7f24fb3017c7416c910f
-      internalID: 1503170282
+      spriteID: 84b774f3c3558c94f9a7212efaedde28
+      internalID: 1941614960
       vertices: []
       indices: 
       edges: []
@@ -254,9 +254,9 @@ TextureImporter:
       name: 1PencilRun_7
       rect:
         serializedVersion: 2
-        x: 637
+        x: 385
         y: 0
-        width: 91
+        width: 55
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -265,8 +265,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62f08eda3f4f69148b8182fb597954e1
-      internalID: -1710629288
+      spriteID: 5e148e3da67e81b4f9305eb5200e9082
+      internalID: -463106414
       vertices: []
       indices: 
       edges: []
@@ -282,14 +282,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      1PencilRun_3: -629655503
-      1PencilRun_1: -2022345503
-      1PencilRun_6: 1503170282
-      1PencilRun_7: -1710629288
-      1PencilRun_0: 1249261976
-      1PencilRun_5: -730080950
-      1PencilRun_2: 448980916
-      1PencilRun_4: -1913767701
+      1PencilRun_3: -1067055065
+      1PencilRun_1: 486394134
+      1PencilRun_6: 1941614960
+      1PencilRun_7: -463106414
+      1PencilRun_0: -1909635304
+      1PencilRun_5: -1358100782
+      1PencilRun_2: 137333232
+      1PencilRun_4: 2059332565
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

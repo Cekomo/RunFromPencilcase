@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,7 +109,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 91
+        width: 55
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -118,8 +118,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51421b6df5eaf264b9ad8e0d9e3855ab
-      internalID: 1357708640
+      spriteID: ad1a89fc3fa77264099500b456eece80
+      internalID: 796679100
       vertices: []
       indices: 
       edges: []
@@ -128,9 +128,9 @@ TextureImporter:
       name: 3PencilRun_1
       rect:
         serializedVersion: 2
-        x: 91
+        x: 55
         y: 0
-        width: 91
+        width: 55
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -139,8 +139,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd14f3e7fef7a9e4c9e308bedab13744
-      internalID: 1504015479
+      spriteID: a37de56ff9bb75d4c91e98305fb1b0b1
+      internalID: -1179001884
       vertices: []
       indices: 
       edges: []
@@ -149,9 +149,9 @@ TextureImporter:
       name: 3PencilRun_2
       rect:
         serializedVersion: 2
-        x: 182
+        x: 110
         y: 0
-        width: 91
+        width: 55
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -160,8 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05c1779d4e96aa241b476da7b0231739
-      internalID: -1846537382
+      spriteID: 740bb5534b97aea4eb1a2aeb992c86a0
+      internalID: -1029322976
       vertices: []
       indices: 
       edges: []
@@ -170,9 +170,9 @@ TextureImporter:
       name: 3PencilRun_3
       rect:
         serializedVersion: 2
-        x: 273
+        x: 165
         y: 0
-        width: 91
+        width: 55
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -181,8 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 813cdb9686791ac4bab6e3ca345bd314
-      internalID: -893115204
+      spriteID: a779acc6f17c20642a6b004cdd07683e
+      internalID: 1829690162
       vertices: []
       indices: 
       edges: []
@@ -191,9 +191,9 @@ TextureImporter:
       name: 3PencilRun_4
       rect:
         serializedVersion: 2
-        x: 364
+        x: 220
         y: 0
-        width: 91
+        width: 55
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -202,8 +202,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be34e3af782612140b0e6ce80cf45bb5
-      internalID: -379903528
+      spriteID: 108bae3cfa7b3774da3620d6ec0c76f1
+      internalID: -1285195675
       vertices: []
       indices: 
       edges: []
@@ -212,9 +212,9 @@ TextureImporter:
       name: 3PencilRun_5
       rect:
         serializedVersion: 2
-        x: 455
+        x: 275
         y: 0
-        width: 91
+        width: 55
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -223,8 +223,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79f5f6d575fa23149a3578da6e42c96a
-      internalID: -1793577785
+      spriteID: 85b9fcb028e3b474cb91af8a88557c81
+      internalID: -236116162
       vertices: []
       indices: 
       edges: []
@@ -233,9 +233,9 @@ TextureImporter:
       name: 3PencilRun_6
       rect:
         serializedVersion: 2
-        x: 546
+        x: 330
         y: 0
-        width: 91
+        width: 55
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -244,8 +244,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07364c3d291790143882a01f00b74bf2
-      internalID: 490547813
+      spriteID: 205b40a667ba39c48ba70db953500eb8
+      internalID: 1669458625
       vertices: []
       indices: 
       edges: []
@@ -254,9 +254,9 @@ TextureImporter:
       name: 3PencilRun_7
       rect:
         serializedVersion: 2
-        x: 637
+        x: 385
         y: 0
-        width: 91
+        width: 55
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -265,8 +265,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54c3e1e22369ace4786a015ef5a4ac8d
-      internalID: -1029440753
+      spriteID: cd59a0910c243804fbc02b2dda69a49e
+      internalID: 214517322
       vertices: []
       indices: 
       edges: []
@@ -282,14 +282,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      3PencilRun_1: 1504015479
-      3PencilRun_5: -1793577785
-      3PencilRun_4: -379903528
-      3PencilRun_0: 1357708640
-      3PencilRun_2: -1846537382
-      3PencilRun_7: -1029440753
-      3PencilRun_6: 490547813
-      3PencilRun_3: -893115204
+      3PencilRun_1: -1179001884
+      3PencilRun_5: -236116162
+      3PencilRun_4: -1285195675
+      3PencilRun_0: 796679100
+      3PencilRun_2: -1029322976
+      3PencilRun_7: 214517322
+      3PencilRun_6: 1669458625
+      3PencilRun_3: 1829690162
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
