@@ -10,7 +10,7 @@ public class RespawnManager : MonoBehaviour
     
     private void Update()
     {
-        if (!PencilcaseController.IsGameOver || !Respawner.IsPositionSaved) return;
+        if (!PencilcaseController.IsGameOver) return;
 
         SetCheckPointPositions();
 

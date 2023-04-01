@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UIElements;
 
 [CreateAssetMenu(fileName = "CheckpointData", menuName = "Checkpoint")]
 public class CheckPointSO : ScriptableObject
