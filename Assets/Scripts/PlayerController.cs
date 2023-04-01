@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -8,7 +5,13 @@ public class PlayerController : MonoBehaviour
     public Animator playerAnimator;
     
     private static PlayerMovementState playerMovementState;
+    
+    // animator parameters may not get adjusted properly for jumping
     private static readonly int SpeedX = Animator.StringToHash("SpeedX");
+    private static readonly int SpeedY = Animator.StringToHash("SpeedY");
+    private static readonly int TakeOff = Animator.StringToHash("takeOff");
+    private static readonly int IsJumping = Animator.StringToHash("isJumping");
+    private static readonly int IsGrounded = Animator.StringToHash("isGrounded");
 
     private const float RUNNING_SPEED = 5f;
     private const float JUMP_FORCE = 10f;
@@ -17,8 +20,6 @@ public class PlayerController : MonoBehaviour
     private static float playerVerticalVector;
     
     private float previousMoveX;
-    private static float playerFacing;
-
 
     private Rigidbody2D _rbPlayer;
     private BoxCollider2D _colliderPlayer;
@@ -44,7 +45,8 @@ public class PlayerController : MonoBehaviour
         
         Run();
         FaceTowards();
-        if (IsGrounded())
+        
+        if (CheckIfGrounded())
             Jump();
     }
 
@@ -55,10 +57,13 @@ public class PlayerController : MonoBehaviour
 
     private void Jump()
     {
+        SetParametersToAnimateJump();
+        
         _rbPlayer.AddForce(Vector2.up * JUMP_FORCE * playerVerticalVector, ForceMode2D.Impulse);
+        playerAnimator.SetTrigger(TakeOff);
     }
 
-    private bool IsGrounded()
+    private bool CheckIfGrounded()
     {
         var bCBounds = _colliderPlayer.bounds;
         var raycastHit2D = Physics2D.BoxCast(bCBounds.center, bCBounds.size,
@@ -66,22 +71,22 @@ public class PlayerController : MonoBehaviour
         return !ReferenceEquals(raycastHit2D.collider, null); // changed from raycastHit2D.collider != null;
     }
     
+    private void SetParametersToAnimateJump()
+    {
+        playerAnimator.SetBool(IsJumping, !CheckIfGrounded());
+        playerAnimator.SetBool(IsGrounded, CheckIfGrounded());
+        playerAnimator.SetFloat(SpeedY, _rbPlayer.velocity.y);
+    }
+    
     private void FaceTowards()
     {
         if ((int)previousMoveX == (int)playerHorizontalVector) return;
-        DeterminePlayerDirection();
-            
+
+        var localScale = transform.localScale;
         if (playerHorizontalVector != 0)
-            transform.localScale = new Vector3(1 * playerHorizontalVector, 1, 1);
+            transform.localScale = new Vector3(1 * playerHorizontalVector, localScale.y, localScale.z);
 
         previousMoveX = playerHorizontalVector;
-    }
-
-    public static float DeterminePlayerDirection()
-    {
-        if (playerHorizontalVector != 0) 
-            playerFacing = playerHorizontalVector;
-        return playerFacing;
     }
 }
 
