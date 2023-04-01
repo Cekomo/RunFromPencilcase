@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PencilcaseController : MonoBehaviour
 {
-    private readonly float _caseSpeed = 4f;
+    private readonly float _caseSpeed = 1.25f;
     private Rigidbody2D _rbCase;
 
     public static bool IsGameOver;
