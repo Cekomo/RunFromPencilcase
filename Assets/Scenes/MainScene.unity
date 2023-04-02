@@ -2885,6 +2885,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3e2e9485c664f0439bbec15e292a2d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerAnimator: {fileID: 1119757353}
   pencilSource: {fileID: 311175454601618919, guid: f3905fd223141f846afb1c2b00e3d472, type: 3}
 --- !u!70 &1119757355
 CapsuleCollider2D:
