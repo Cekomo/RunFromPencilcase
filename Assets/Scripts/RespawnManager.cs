@@ -31,7 +31,7 @@ public class RespawnManager : MonoBehaviour
         PencilcaseController.IsGameOver = false;
     }
 
-    private void SetCheckPointPositions()
+    public void SetCheckPointPositions()
     {
         for (var i = 6; i >= 0; i--)
         {
