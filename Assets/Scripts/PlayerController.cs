@@ -13,8 +13,8 @@ public class PlayerController : MonoBehaviour
     private static readonly int IsJumping = Animator.StringToHash("IsJumping");
     private static readonly int IsGrounded = Animator.StringToHash("IsGrounded");
 
-    private const float RUNNING_SPEED = 5f;
-    private const float JUMP_FORCE = 10f;
+    private const float RUNNING_SPEED = 7.5f;
+    private const float JUMP_FORCE = 16f;
     
     private static float playerHorizontalVector;
     private static float playerVerticalVector;

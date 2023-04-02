@@ -236,18 +236,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (2)
@@ -310,18 +298,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (10)
@@ -511,18 +487,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (18)
@@ -585,18 +549,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (1)
@@ -659,18 +611,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook
@@ -859,18 +799,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (20)
@@ -1118,18 +1046,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (17)
@@ -1675,18 +1591,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (26)
@@ -1749,18 +1653,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (13)
@@ -1823,18 +1715,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (14)
@@ -1959,18 +1839,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (27)
@@ -2132,18 +2000,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (3)
@@ -2206,18 +2062,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (25)
@@ -2535,18 +2379,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (4)
@@ -2609,18 +2441,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (8)
@@ -2683,18 +2503,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (12)
@@ -2757,18 +2565,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (5)
@@ -2831,18 +2627,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (19)
@@ -2905,18 +2689,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (6)
@@ -2942,6 +2714,7 @@ GameObject:
   - component: {fileID: 1119757354}
   - component: {fileID: 1119757351}
   - component: {fileID: 1119757350}
+  - component: {fileID: 1119757355}
   - component: {fileID: 1119757353}
   m_Layer: 0
   m_Name: EraserHead
@@ -3026,11 +2799,11 @@ BoxCollider2D:
   m_GameObject: {fileID: 1119757347}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 577fc3319f94f5741a59f5b2e06de950, type: 2}
+  m_Material: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.1, y: -0.03}
+  m_Offset: {x: 0.1, y: -0.52}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3041,7 +2814,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 1.0000002}
+  m_Size: {x: 0.2, y: 0.03}
   m_EdgeRadius: 0
 --- !u!50 &1119757351
 Rigidbody2D:
@@ -3058,7 +2831,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 5
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -3113,6 +2886,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pencilSource: {fileID: 311175454601618919, guid: f3905fd223141f846afb1c2b00e3d472, type: 3}
+--- !u!70 &1119757355
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119757347}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 577fc3319f94f5741a59f5b2e06de950, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.1, y: -0.03}
+  m_Size: {x: 0.5, y: 1}
+  m_Direction: 0
 --- !u!1001 &1171350959
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3164,18 +2953,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (22)
@@ -3344,18 +3121,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (21)
@@ -3480,18 +3245,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (15)
@@ -3803,18 +3556,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (30)
@@ -3877,18 +3618,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (31)
@@ -4727,18 +4456,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (16)
@@ -4801,18 +4518,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (24)
@@ -4875,18 +4580,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (29)
@@ -4949,18 +4642,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (23)
@@ -5275,18 +4956,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (11)
@@ -5349,18 +5018,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (9)
@@ -5518,18 +5175,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (28)
@@ -5592,18 +5237,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653988, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7302687250397653989, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ead7ca0d9c8ff349aad7054a4bea513, type: 2}
     - target: {fileID: 7302687250397653990, guid: c83643892c092654f8bf0b0b1df0a0b6, type: 3}
       propertyPath: m_Name
       value: Notebook (7)
