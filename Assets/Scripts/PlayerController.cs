@@ -65,7 +65,8 @@ public class PlayerController : MonoBehaviour
 
     private void Jump()
     {
-        _rbPlayer.AddForce(Vector2.up * (JUMP_FORCE * playerVerticalVector), ForceMode2D.Impulse);
+        _rbPlayer.velocity = new Vector2(_rbPlayer.velocity.x, JUMP_FORCE * playerVerticalVector);
+        // _rbPlayer.AddForce(Vector2.up * (JUMP_FORCE * playerVerticalVector), ForceMode2D.Impulse);
         playerAnimator.SetTrigger(TakeOff);
         playerAnimator.SetBool(IsJumping, true);
     }
@@ -84,7 +85,5 @@ public class PlayerController : MonoBehaviour
     {
         transform.rotation = Quaternion.Euler(0, 90 - playerHorizontalVector * 90, 0);
     }
-
-
 }
 
