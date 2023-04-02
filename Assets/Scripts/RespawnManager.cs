@@ -3,8 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class RespawnManager : MonoBehaviour
 {
-    [SerializeField] private CheckPointSO checkPointSo;
-    
     [SerializeField] private GameObject player;
     [SerializeField] private GameObject pencilCase;
     [SerializeField] private GameObject checkPoint;
