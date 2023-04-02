@@ -9,9 +9,9 @@ public class PlayerController : MonoBehaviour
     // animator parameters may not get adjusted properly for jumping
     private static readonly int SpeedX = Animator.StringToHash("SpeedX");
     private static readonly int SpeedY = Animator.StringToHash("SpeedY");
-    private static readonly int TakeOff = Animator.StringToHash("takeOff");
-    private static readonly int IsJumping = Animator.StringToHash("isJumping");
-    private static readonly int IsGrounded = Animator.StringToHash("isGrounded");
+    private static readonly int TakeOff = Animator.StringToHash("TakingOff");
+    private static readonly int IsJumping = Animator.StringToHash("IsJumping");
+    private static readonly int IsGrounded = Animator.StringToHash("IsGrounded");
 
     private const float RUNNING_SPEED = 5f;
     private const float JUMP_FORCE = 10f;
@@ -34,20 +34,29 @@ public class PlayerController : MonoBehaviour
     
     private void Update()
     {
+        print(playerAnimator.GetBool(IsJumping));
         playerHorizontalVector = Input.GetAxisRaw("Horizontal");
         playerVerticalVector = Input.GetAxisRaw("Vertical");
+        
         playerAnimator.SetFloat(SpeedX, Mathf.Abs(playerHorizontalVector));
+        playerAnimator.SetFloat(SpeedY, _rbPlayer.velocity.y);
+
+        if (CheckIfGrounded() && playerAnimator.GetBool(IsJumping))
+            playerAnimator.SetBool(IsJumping, false);
     }
 
     private void FixedUpdate()
     {
-        if (playerHorizontalVector == 0 && playerVerticalVector == 0) return;
-        
-        Run();
-        FaceTowards();
-        
-        if (CheckIfGrounded())
+        if (playerHorizontalVector != 0)
+        {
+            Run();
+            FaceTowards();
+        }
+
+        if (playerVerticalVector > 0.1f && CheckIfGrounded())
+        {
             Jump();
+        }
     }
 
     private void Run()
@@ -57,10 +66,9 @@ public class PlayerController : MonoBehaviour
 
     private void Jump()
     {
-        SetParametersToAnimateJump();
-        
         _rbPlayer.AddForce(Vector2.up * (JUMP_FORCE * playerVerticalVector), ForceMode2D.Impulse);
         playerAnimator.SetTrigger(TakeOff);
+        playerAnimator.SetBool(IsJumping, true);
     }
 
     private bool CheckIfGrounded()
@@ -68,16 +76,11 @@ public class PlayerController : MonoBehaviour
         var bCBounds = _colliderPlayer.bounds;
         var raycastHit2D = Physics2D.BoxCast(bCBounds.center, bCBounds.size,
             0f, Vector2.down, 0.1f, platformsLayerMask);
-        return !ReferenceEquals(raycastHit2D.collider, null); // changed from raycastHit2D.collider != null;
+        var isGrounded = !ReferenceEquals(raycastHit2D.collider, null);
+        playerAnimator.SetBool(IsGrounded, isGrounded);
+        return isGrounded; // changed from raycastHit2D.collider != null;
     }
-    
-    private void SetParametersToAnimateJump()
-    {
-        playerAnimator.SetBool(IsJumping, !CheckIfGrounded());
-        playerAnimator.SetBool(IsGrounded, CheckIfGrounded());
-        playerAnimator.SetFloat(SpeedY, _rbPlayer.velocity.y);
-    }
-    
+
     private void FaceTowards()
     {
         if ((int)previousMoveX == (int)playerHorizontalVector) return;
