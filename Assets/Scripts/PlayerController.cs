@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
     private BoxCollider2D _colliderPlayer;
 
     [SerializeField] private LayerMask platformsLayerMask;
-    
+
     private void Start()
     {
         _rbPlayer = GetComponent<Rigidbody2D>();
@@ -34,7 +34,6 @@ public class PlayerController : MonoBehaviour
     
     private void Update()
     {
-        print(playerAnimator.GetBool(IsJumping));
         playerHorizontalVector = Input.GetAxisRaw("Horizontal");
         playerVerticalVector = Input.GetAxisRaw("Vertical");
         
@@ -83,13 +82,9 @@ public class PlayerController : MonoBehaviour
 
     private void FaceTowards()
     {
-        if ((int)previousMoveX == (int)playerHorizontalVector) return;
-
-        var localScale = transform.localScale;
-        if (playerHorizontalVector != 0)
-            transform.localScale = new Vector3(1 * playerHorizontalVector, localScale.y, localScale.z);
-
-        previousMoveX = playerHorizontalVector;
+        transform.rotation = Quaternion.Euler(0, 90 - playerHorizontalVector * 90, 0);
     }
+
+
 }
 

@@ -8,7 +8,7 @@ public class ThrowableController : MonoBehaviour
 
     private Vector3 _direction;
 
-    private const float PENCIL_SPEED = 7.5f;
+    private const float PENCIL_SPEED = 12.5f;
 
     private void Start()
     {
