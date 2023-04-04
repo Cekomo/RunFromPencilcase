@@ -620,10 +620,10 @@ RectTransform:
   m_Father: {fileID: 1820042780}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -400, y: -400}
+  m_SizeDelta: {x: 1520, y: 680}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1281425613
 MonoBehaviour:
@@ -697,10 +697,10 @@ RectTransform:
   m_Father: {fileID: 1281425612}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -280}
-  m_SizeDelta: {x: 1400, y: 500}
+  m_SizeDelta: {x: -120, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1371849433
 MonoBehaviour:
@@ -814,15 +814,16 @@ MonoBehaviour:
   m_Text: "\tGreetings :). In this 2D Unity platformer game, you play as an eraser,
     a small being armed with pencils. Your goal is to navigate through various obstacles
     while being chased by a pencil case. You can use your pencils as platforms to
-    jump across gaps and reach higher areas.\r\n\r\n\tAs you progress through the
-    game, you'll come across letters scattered throughout the map. Your task is to
-    erase the pencil stains around them to reveal the letter. Once you've collected
-    all the letters, you'll need to use them to solve a riddle at the end of the
-    game. Be careful not to get caught by the pencil case, as it will result in a
-    game over.\r\n\r\n\tIf you do get caught, don't worry! You'll be able to start
-    again from the latest letter you collected. Keep in mind that the pencil case
-    will continue to chase you, so you'll need to move quickly and think carefully
-    as you make your way through the game."
+    jump across gaps and reach higher areas.\r\n\tAs you progress through the game,
+    you'll come across letters scattered throughout the map. Your task is to erase
+    the pencil stains around them to reveal the letter. Once you've collected all
+    the letters, you'll need to use them to solve a riddle at the end of the game.
+    Be careful not to get caught by the pencil case, as it will result in a game
+    over.\r\n\tIf you do get caught, don't worry! You'll be able to start again from
+    the latest letter you collected. Keep in mind that the pencil case will continue
+    to chase you, so you'll need to move quickly and think carefully as you make
+    your way through the game.\n\nUse WASD to navigate and Mouse left click to throw
+    pencil. Good luck!"
 --- !u!222 &1674384783
 CanvasRenderer:
   m_ObjectHideFlags: 0

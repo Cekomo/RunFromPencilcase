@@ -5164,7 +5164,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.76708794, g: 0.7806208, b: 0.8018868, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -10173,6 +10173,7 @@ GameObject:
   - component: {fileID: 1004283857}
   - component: {fileID: 1004283856}
   - component: {fileID: 1004283858}
+  - component: {fileID: 1004283859}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -10224,6 +10225,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   respawnManager: {fileID: 1004283856}
   wordPanel: {fileID: 1488042143}
+--- !u!114 &1004283859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004283855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f22e85b3be722343aadfce0d3d7f0d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSamples:
+  - type: 20
+    clip: {fileID: 8300000, guid: a72846bf6c72bd74382c9f184a657370, type: 3}
+    volume: 0.05
+    pitch: 1
+    isLooping: 1
+    source: {fileID: 0}
+  - type: 20
+    clip: {fileID: 8300000, guid: 1c7808617f1ad5242946f2f101adceca, type: 3}
+    volume: 1
+    pitch: 1
+    isLooping: 1
+    source: {fileID: 0}
+  - type: 20
+    clip: {fileID: 8300000, guid: 31a726f7ee8a71c4681144e4c0bacb67, type: 3}
+    volume: 1
+    pitch: 1
+    isLooping: 0
+    source: {fileID: 0}
+  - type: 20
+    clip: {fileID: 8300000, guid: 42fe7b5ac388ce14fa507f0b6f478293, type: 3}
+    volume: 0
+    pitch: 1
+    isLooping: 0
+    source: {fileID: 0}
+  - type: 0
+    clip: {fileID: 8300000, guid: 798164c834ed29148ac98ff75b53daef, type: 3}
+    volume: 1
+    pitch: 1
+    isLooping: 0
+    source: {fileID: 0}
+  - type: 20
+    clip: {fileID: 8300000, guid: 0bcda211f6125d0488a9ec20091a1ab5, type: 3}
+    volume: 1
+    pitch: 1
+    isLooping: 0
+    source: {fileID: 0}
 --- !u!1001 &1005078133
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11730,7 +11780,6 @@ GameObject:
   - component: {fileID: 1119757354}
   - component: {fileID: 1119757351}
   - component: {fileID: 1119757350}
-  - component: {fileID: 1119757355}
   - component: {fileID: 1119757353}
   m_Layer: 0
   m_Name: EraserHead
@@ -11799,7 +11848,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1119757347}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3, y: -4.3, z: 0}
+  m_LocalPosition: {x: -3, y: -4.4, z: 0}
   m_LocalScale: {x: 1.1, y: 1.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11819,7 +11868,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.1, y: -0.52}
+  m_Offset: {x: 0.114038914, y: -0.04970002}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -11830,7 +11879,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.2, y: 0.03}
+  m_Size: {x: 0.3460034, y: 0.9705999}
   m_EdgeRadius: 0
 --- !u!50 &1119757351
 Rigidbody2D:
@@ -11865,6 +11914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7ff0bc01e7f56f4d84dda74c0a9012c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 1004283859}
   playerAnimator: {fileID: 1119757353}
   platformsLayerMask:
     serializedVersion: 2
@@ -11904,22 +11954,6 @@ MonoBehaviour:
   mainCamera: {fileID: 519420031}
   playerAnimator: {fileID: 1119757353}
   pencilSource: {fileID: 311175454601618919, guid: f3905fd223141f846afb1c2b00e3d472, type: 3}
---- !u!70 &1119757355
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1119757347}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 577fc3319f94f5741a59f5b2e06de950, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.10000001, y: -0.018598707}
-  m_Size: {x: 0.43999997, y: 0.9771973}
-  m_Direction: 0
 --- !u!1001 &1126306758
 PrefabInstance:
   m_ObjectHideFlags: 0

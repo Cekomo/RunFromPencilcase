@@ -1,7 +1,10 @@
 using UnityEngine;
+using System;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] private AudioManager audioManager;
+    
     public Animator playerAnimator;
     
     private static PlayerMovementState playerMovementState;
@@ -65,6 +68,7 @@ public class PlayerController : MonoBehaviour
 
     private void Jump()
     {
+        
         _rbPlayer.velocity = new Vector2(_rbPlayer.velocity.x, JUMP_FORCE * playerVerticalVector);
         // _rbPlayer.AddForce(Vector2.up * (JUMP_FORCE * playerVerticalVector), ForceMode2D.Impulse);
         playerAnimator.SetTrigger(TakeOff);
